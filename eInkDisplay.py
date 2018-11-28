@@ -27,6 +27,8 @@ print("Processing SVG...")
 
 output = output.replace('Today:', 'dofjvbeklwdfndjvbelwdnbvhnfwjlfnj')
 
+output = output.replace('#LINK_ONE', "C:\Git\eInkDisplay\q1.jpg")
+
 # Write output
 codecs.open('weather-script-output.svg', 'w', encoding='utf-8').write(output)
 print("Process complete.")
